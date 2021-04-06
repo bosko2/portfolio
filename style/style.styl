@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+
+*
+  margin: 0
+  font-family: 'Roboto', sans-serif
+  color: whitesmoke
+
+
+body, html
+  width: 100%
+  height: 100%
+  background: rgb(33, 33, 33)
+  background: linear-gradient(0deg, rgba(33, 33, 33, 1) 0%, rgba(60, 60, 60, 1) 100%)
+  background-attachment: fixed
+
+
+#mail
+  width: 10vh
+  position: fixed
+  padding-left: 2vw
+  padding-top: 2vh
+  z-index: 1
+  display: flex
+
+#educ
+  padding-bottom: 24vh
+  padding-top: 14vh
+  padding-left: 10%
+  margin-right: 10%
+
+  h2
+    padding-left: 15%
+
+  p
+    font-size: min(5vw, 5vh)
+
+  // width: 80%
+
+  img
+    height: 40vh
+    padding-left: min(5vw, 5vh)
+
+#info
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 90vh
+  font-size: min(10vw, 10vh)
+  width: 60%
+  margin-left: 20%
+  margin-right: 20%
+  padding-right: 20%
+  text-align: center
+  color: whitesmoke
+
+#arrow
+  width: 10vh
+  margin-left: calc(50vw - 5vh)
+
+h2
+  font-size: 7vh
+  padding-left: 25%
+
+#skills
+  #Logos
+    font-size: 3.2vh
+    padding-left: 20%
+
+  p
+    padding-top: 2vh
+
+    .text
+      font-size: 5.5vh
+      width: 40%;
+      padding-left: 20%
+      color: whitesmoke
+
+    .flexer
+      float: right
+      font-size: 5.5vh
+      padding-left: 10vh
+      width: 10px
+      margin-right: 5%
+      border-radius: 9vh
+      color: #00000000
+      background-color: #01ba53
+  padding-bottom: 7.5vh
+
+#projects
+  padding-top: 15vh
+
+  h2
+    padding-left: 5%
+    padding-bottom: 5%
+
+  h3
+    display: inline
+  padding-left: 20%
+  font-size: 4vh
+  padding-bottom: 7.5vh
+  margin-right: 20%
+
+  p
+    margin-bottom: 5%
+    padding-left: 5%
+
+    a
+      color: #01ba53
+      font-size: 5vh
+
+@media (orientation: landscape)
+  #educ
+    padding-left: 20%
+    margin-right: 20%
+    width: 40%
+
+    h2
+      padding-left: 25%
+
+  #skills
+    .fixer
+      display: none
+
+    p
+      br
+        display: none
+

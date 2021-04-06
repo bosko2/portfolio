@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    background: linear-gradient(0deg, #212121 0%, #3c3c3c 100%);
+    background-attachment: fixed;
+}
+
+#mail {
+    width: 10vh;
+    position: fixed;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    z-index: 1;
+    display: flex;
+}
+
+#educ {
+    padding-bottom: 24vh;
+    padding-top: 14vh;
+    padding-left: 10%;
+    margin-right: 10%;
+}
+
+#educ h2 {
+    padding-left: 15%;
+}
+
+#educ p {
+    font-size: 5vh;
+}
+
+#educ img {
+    height: 40vh;
+    padding-left: 5vh;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 10vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+#arrow {
+    width: 10vh;
+    margin-left: calc(50vw - 5vh);
+}
+
+h2 {
+    font-size: 7vh;
+    padding-left: 25%;
+}
+
+#skills {
+    padding-bottom: 7.5vh;
+}
+
+#skills #Logos {
+    font-size: 3.2vh;
+    padding-left: 20%;
+}
+
+#skills p {
+    padding-top: 2vh;
+}
+
+#skills p .text {
+    font-size: 5.5vh;
+    width: 40%;
+    padding-left: 20%;
+    color: #f5f5f5;
+}
+
+#skills p .flexer {
+    float: right;
+    font-size: 5.5vh;
+    padding-left: 10vh;
+    width: 10px;
+    margin-right: 5%;
+    border-radius: 9vh;
+    color: rgba(0, 0, 0, 0);
+    background-color: #01ba53;
+}
+
+#projects {
+    padding-top: 15vh;
+    padding-left: 20%;
+    font-size: 4vh;
+    padding-bottom: 7.5vh;
+    margin-right: 20%;
+}
+
+#projects h2 {
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+#projects h3 {
+    display: inline;
+}
+
+#projects p {
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+
+#projects p a {
+    color: #01ba53;
+    font-size: 5vh;
+}
+
+@media (orientation: landscape) {
+    #educ {
+        padding-left: 20%;
+        margin-right: 20%;
+        width: 40%;
+    }
+
+    #educ h2 {
+        padding-left: 25%;
+    }
+
+    #skills .fixer {
+        display: none;
+    }
+
+    #skills p br {
+        display: none;
+    }
+}
