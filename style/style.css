@@ -128,6 +128,9 @@ h2 {
 }
 
 @media (orientation: landscape) {
+    #info {
+        font-site: 20vh;
+    }
     #educ {
         padding-left: 20%;
         margin-right: 20%;
