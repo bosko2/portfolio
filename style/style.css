@@ -50,7 +50,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    font-size: 15vw;
+    font-size: min(10vw,10vh);
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
